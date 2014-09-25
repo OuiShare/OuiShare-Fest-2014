@@ -1,0 +1,161 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.tooltip-inner{
+  font-size: 11px;
+  line-height: 1.4;
+  max-width: 400px;
+  padding: 8px;
+  width: 320px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: 'Ubuntu','Helvetica Neue','Helvetica','Arial','sans-serif';
+}
+
+.tooltip-arrow{
+  border-right-color: #000 !important;
+}
+
+.follow-event-button{
+  background-color: #d5544b;
+}
+
+#btn_attendees_up{
+  display: none;
+}
+.parnters-bg{
+  padding-top: 100px;
+}
+.downpage{
+  .downpage-icon{
+    margin-top: 20px;
+  }
+  .downpage-text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lato';
+  }
+}
+.main-section{
+  #headerwrap{
+    padding-top: 55px;
+  }
+  
+}
+.speakers-container{
+  .container.sinfo{
+    padding-top: 31px;
+  }
+}
+.get-involved-section{
+  .get-involved-punchline{
+    background-color: #34495e;
+    color: #ffffff;
+    padding-top: 1px;
+  }
+}
+.button-call-to-action-option{
+  border-radius: 10px !important;
+}
+.events-section{
+  .events-container{
+    border-bottom: 1px solid #f9f9f9;
+    background: rgba(0, 0, 0, 0.15);
+    height: 85px;
+  }
+  .events-container:hover{
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .events-items{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    text-align: left;
+    height: 40px;
+    color: #fff;
+    padding-top: 10px;
+    a{
+      color: #0b0b6d;
+    }
+  }
+}
+.tickets-section{
+  .tickets-font-color{
+    color: #c5c5c5;
+  }
+  .gravatar-display{
+    width: 50px;
+  }
+  .who-s-coming-title{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .attendee-container{
+    border-bottom: 1px solid #f9f9f9;
+    background: rgba(0, 0, 0, 0.15);
+    height: 70px;
+  }
+  .attendee-container:hover{
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .attendee-items{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-align: left;
+    height: 40px;
+    color: #fff;
+    padding-top: 10px;
+  }
+
+}
+.section{
+  padding-top: 130px;
+}
+.partners-container{
+  .logo-centered{
+    position: relative;
+    top: 25%;
+  }
+}
+.get-involved-section{
+  .get-involved-options-choice{
+    li{
+      min-height: 90px;
+    }
+  }
+}
+.individuals-list-display{
+  min-height: 335px;
+}
+.individuals-list-btn{
+  position: relative;
+  top: 20px;
+}
+.design-team-footer{
+  position: relative;
+  top: -21px;
+  left: 1px;
+}
+
+
+.container{
+  .main-section{
+    .main-title{
+      font-size: 45px;
+      font-family: 'naiv_normal_thin';
+    }
+    .main-section-paragraphes{
+      font-size:22px;
+      font-family: 'naiv_normal_thin';
+      margin-top: 10px;
+    }
+    .twitter-hashtag{
+      color: #fff;
+    }
+  }
+}
