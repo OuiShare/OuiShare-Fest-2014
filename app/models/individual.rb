@@ -40,7 +40,7 @@ class Individual < ActiveRecord::Base
       File.open(ENV['YAML_INDIVIDUALS_FILE_PATH'], 'w') do |f|
         f.write d.to_yaml
       end
-      connect_and_push_to_transifex()
+      #connect_and_push_to_transifex()
     end
   end
 
@@ -53,7 +53,7 @@ class Individual < ActiveRecord::Base
     File.open(ENV['YAML_INDIVIDUALS_FILE_PATH'], 'w') do |f|
       f.write d.to_yaml
     end
-    connect_and_push_to_transifex()
+    #connect_and_push_to_transifex()
   end
   
   def generate_slug    
